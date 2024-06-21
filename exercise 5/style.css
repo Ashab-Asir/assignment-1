@@ -1,0 +1,83 @@
+/* style.css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.people-container1 {
+    background-image: url('1.jpeg');
+    width: 1300px;
+    height: 200px;
+}
+
+.people-heading {
+    position: relative;
+    font-size: 100px;
+    top: 50px;
+    left: 35%;
+}
+
+.people-company-name {
+    color: white;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.people-text-left {
+    color: rgb(253, 112, 61);
+    position: absolute;
+    z-index: 1;
+}
+
+.people-text-right {
+    color: white;
+    position: absolute;
+    left: 240px;
+}
+
+.people-container2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1300px;
+    height: 200px;
+    padding: 20px 30px;
+    background-color: black;
+}
+
+.people-main {
+    width: 1300px;
+    border: 2px solid black;
+    border-radius: 50px;
+    margin: 20px;
+    overflow: hidden;
+}
+
+p {
+    color: white;
+    font-size: 30px;
+}
+
+img {
+    width: 140px;
+}
+
+.people-image {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding-left: 10px;
+}
+
+button {
+    padding: 20px 40px;
+    border-radius: 40px;
+    font-weight: 900;
+    font-size: 25px;
+    background-color: rgb(253, 112, 61);
+}
+
+.people-muted {
+    color: rgb(165, 165, 165);
+}

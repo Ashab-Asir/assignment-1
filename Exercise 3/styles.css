@@ -1,0 +1,29 @@
+/* styles.css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.content-wrapper {
+    width: 700px;
+    background-color: black;
+    color: white;
+}
+
+.item-container {
+    display: flex;
+    padding: 25px;
+    gap: 15px;
+}
+
+.item-text .item-title {
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.item-meta {
+    font-size: 20px;
+    color: rgb(194, 192, 192);
+}

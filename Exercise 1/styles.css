@@ -1,0 +1,46 @@
+/* styles.css */
+.nav {
+    display: flex;
+    align-items: center;
+    background-color: #262323;
+    padding: 10px;
+    list-style: none;
+    color: #bdaead;
+    height: 40px;
+}
+
+.nav-right {
+    justify-content: flex-end;
+    gap: 20px;
+}
+
+.nav-center {
+    justify-content: center;
+}
+
+.nav-left {
+    justify-content: flex-start;
+    gap: 20px;
+}
+
+.nav-items {
+    display: flex;
+    gap: 20px;
+    margin-right: auto;
+}
+
+.nav-item {
+    margin-left: 70px;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.contact-button {
+    background-color: #147094;
+    padding: 5px 15px;
+    border-radius: 20px;
+    margin-right: 50px;
+}
